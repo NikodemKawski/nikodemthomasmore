@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oef2</title>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="get">
+
+        <div>
+            <label for="voornaam"><b>Voornaam:</b>
+                <input type="text" name="voornaam" id="voornaam" placeholder="Stijn">
+            </label>
+        </div>
+
+        <div>
+            <label for="familienaam"><b>Famlienaam:</b>
+                <input type="text" name="familienaam" id="familienaam" placeholder="Lenaerts">
+            </label>
+        </div>
+
+        <div>
+            <label for="gebruikersnaam"><b>Gebruikersnaam:</b>
+                <input type="text" name="gebruikersnaam" id="gebruikersnaam" placeholder="mail@thomasmore.be" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="nickname"><b>Nickname:</b>
+                <input type="text" name="nickname" id="nickname">
+            </label>
+        </div>
+
+        <div>
+            <label for="password"><b>Pasword:</b>
+                <input type="password" name="password" id="password" minlength="5" maxlength="15" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="herhaalpassword"><b>Herhaal pasword:</b>
+                <input type="password" name="herhaalpassword" id="herhaalpassword" minlength="5" maxlength="15" required>
+            </label>
+        </div>
+
+        <div>
+            <input type="submit" value="Registreren">
+        </div>
+
+    </form>
+</body>
+</html>

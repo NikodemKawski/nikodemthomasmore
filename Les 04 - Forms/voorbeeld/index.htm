@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oefen formulier</title>
+</head>
+<body>
+    <h1>Stel uw vraag hier:</h1>
+
+    <form action="https://tm-statweb.be/sendmail.php" method="post">
+        <div>
+            <label for="Naam">Naam: <input type="text" name="Naam" id="Naam" required></label>
+        </div>
+        <div>
+            <label for="Email">Email: <input type="email" name="Email" id="Email" required></label>
+        </div>
+        <div>
+            <label for="Website">Website: <input type="url" name="Website" id="Website" required></label>
+        </div>
+        <div>
+            <label for="Reactie">Reactie: <textarea name="Reactie" id="Reactie" cols="30" rows="10"></textarea required></label>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Geslacht</legend>
+                <label for="male">Male<input type="radio" name="gender" id="male" required></label>
+                <label for="female">Female<input type="radio" name="gender" id="femal" required></label>
+                <label for="other">Other<input type="radio" name="gender" id="other" required></label>
+            </fieldset>
+        </div>
+        <div>
+            <label for="checkbox">Hou me op de hoogte: <input type="checkbox" name="checkbox" id="checkbox"></label>
+        </div>
+        <input type="hidden" name="studentemail" value="nikodem2010@outlook.com">
+        <div>
+            <input type="submit" value="Indienen">
+        </div>
+
+    </form>
+</body>
+</html>
