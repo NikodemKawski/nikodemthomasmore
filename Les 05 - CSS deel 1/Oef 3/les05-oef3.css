@@ -1,0 +1,17 @@
+.vak1{
+        display:block;
+        border:15px solid red;
+        padding: 5px;
+}
+
+.vak2{
+    border-left: 15px solid red;
+    border-top: 15px solid red;
+    border-right: 15px solid red;
+}
+
+.vak3{
+    border-left: 15px solid red;
+    border-bottom: 15px solid red;
+    border-right: 15px solid red;
+}
