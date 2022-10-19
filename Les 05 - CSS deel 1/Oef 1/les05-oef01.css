@@ -1,0 +1,19 @@
+p {
+    color: gray;
+}
+strong{
+    color: black;
+}
+h1{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}
+h2{
+    background-color: aqua;
+    border-left: 7px solid blue;
+    padding-left: 10px;
+}
+em{
+    text-decoration: underline;
+}
