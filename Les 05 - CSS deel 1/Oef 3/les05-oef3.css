@@ -2,6 +2,7 @@
         display:block;
         border:15px solid red;
         padding: 5px;
+        background-color: pink;
 }
 
 .vak2{
@@ -14,4 +15,44 @@
     border-left: 15px solid red;
     border-bottom: 15px solid red;
     border-right: 15px solid red;
+    padding: 5px;
+}
+
+.vak4{
+    display: block;
+    border: 15px solid blue;
+    padding: 5px;
+    background-color: lightcyan;
+}
+
+.vak5{
+    border-left: 15px solid red;
+    border-top: 15px solid red;
+    border-right: 15px solid red;
+    padding: 5px;
+}
+
+.vak6{
+    border-left: 15px solid red;
+    border-right: 15px solid red;
+}
+
+.vak7{
+    border-left: 15px solid red;
+    border-bottom: 15px solid red;
+    border-right: 15px solid red;
+}
+
+.vak8{
+    border-left: 15px solid blue;
+    border-top: 15px solid blue;
+    border-right: 15px solid blue;
+    background-color: lightcyan;
+}
+
+.vak9{
+    border-left: 15px solid blue;
+    border-bottom: 15px solid blue;
+    border-right: 15px solid blue;
+    background-color: lightcyan;
 }
