@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+}
+
+#customers{
+    display: inline-table;
+    background-color: antiquewhite;
+}
+
+.eerste_rij{
+    background-color: green;
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+
+.dag1{
+    background-color: green;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+#leeg{
+    background-color: antiquewhite;
+}
+
+.les{
+    padding: 5px;
+}
+
+.active{
+    padding: 5px;
+    background-color: orange;
+}
