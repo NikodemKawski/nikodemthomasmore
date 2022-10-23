@@ -1,0 +1,28 @@
+.achtergrond{
+    background-color: green;
+}
+
+.spacing{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#vak{
+    border: 2px solid green;
+    border-radius: 12px;
+    padding: 10px;
+    width: 300px;
+}
+
+.vetgedrukt{
+    font-weight: bold;
+}
+
+.knop{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 16px 150px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
